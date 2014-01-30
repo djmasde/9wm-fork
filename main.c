@@ -43,14 +43,25 @@ Atom		wm_colormaps;
 Atom		_9wm_running;
 Atom		_9wm_hold_mode;
 
-char	*fontlist[] = {
-	"lucm.latin1.9",
-	"blit",
-	"9x15bold",
-	"lucidasanstypewriter-12",
-	"fixed",
-	"*",
-	0,
+// Preserve original fontlist
+//char	*fontlist[] = {
+//	"lucm.latin1.9",
+//	"blit",
+//	"9x15bold",
+//	"lucidasanstypewriter-12",
+//	"fixed",
+//	"*",
+//	0,
+//};
+
+char    *fontlist[] = { /* New fontlist exported from w9wm.c */
+    "6x13",
+    "lucm.latin1.9",
+    "smoothansi",
+    "9x15bold",
+    "lucidasanstypewriter-12",
+    "fixed",
+    0,
 };
 
 void
