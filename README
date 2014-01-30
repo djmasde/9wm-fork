@@ -5,8 +5,8 @@ A single static binary and linked against
 libx11-dev 
 
 to install:
-1 install libx11-dev x11 developer files, install gmrun
-2 see and run the build file
+1 install libx11-dev x11 developer files, install gmrun, install imake
+2 run xmkmf for generate Makefile, make, su for root, make install, make install.man
 3 Install feh for wallpaper changing example: feh --bg-fill '/home/foo/foowall.png'
 3.1  add in .xinitrc: sh $HOME/.fehbg &
 4 makes sure you have a three button mouse
@@ -15,10 +15,10 @@ to install:
 7 enjoy the smallest / fastest window manager for Linux 
 8 install rxvt-unicode
 8.1 urxvt is now the default shell in menu New
-10 please read 
+10 please read
 
 Definition: 9wm: The original 8 1/2 Window Manager with several bugfixed and another changes.
 
 
 Added a menu launcher: Run..
-Fixed more bugfixes (based in openbsd ports patches).
+Fixed more bugfixes (based in openbsd ports patches, etc).
