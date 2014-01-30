@@ -13,7 +13,7 @@ int	numhidden;
 
 char	*b3items[B3FIXED+MAXHIDDEN+1] =
 {
-        "Run..",
+        "Run...",
 	"New",
 	"Reshape",
 	"Move",
@@ -75,7 +75,7 @@ XButtonEvent *e;
 		cmapnofocus(s);
 	switch (n = menuhit(e, &b3menu)) {
 	case 0:          /* Run*/
-                launcher(s);
+                launcher();
         case 1: 	/* New */
 		spawn(s);
 		break;
@@ -104,8 +104,7 @@ XButtonEvent *e;
 }
 
 void
-launcher(s)
-ScreenInfo *s;
+launcher()
 {
 	/*
          * Added a Launcher (run menu for launch apps with gmrun)
