@@ -13,7 +13,7 @@ int	numhidden;
 
 char	*b3items[B3FIXED+MAXHIDDEN+1] =
 {
-        "Run...",
+        "Run",
 	"New",
 	"Reshape",
 	"Move",
@@ -76,6 +76,7 @@ XButtonEvent *e;
 	switch (n = menuhit(e, &b3menu)) {
 	case 0:          /* Run*/
                 launcher();
+                break;
         case 1: 	/* New */
 		spawn(s);
 		break;
