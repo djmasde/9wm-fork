@@ -20,5 +20,5 @@ to install:
 Definition: 9wm: The original 8 1/2 Window Manager with several bugfixed and another changes.
 
 Added a menu launcher: Run..
-Fixed more bugfixes (based in openbsd ports patches, etc).
+Fixed more bugs (based in openbsd ports patches, etc).
 Hidden windows is now 38.
