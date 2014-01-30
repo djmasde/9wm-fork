@@ -8,7 +8,7 @@
 
 CFLAGS = -g -DSHAPE
 LDFLAGS = -lXext -lX11
-BIN = /usr/bin/X11
+BIN = /usr/bin
 
 MANDIR = /usr/man/man1
 MANSUFFIX = 1
